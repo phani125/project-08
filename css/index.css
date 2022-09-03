@@ -37,14 +37,6 @@ body{
 }
 
 
-img.vector-dot {
-    margin-top: 65%;
-    margin-left: 16%;
-    position: absolute;
-}
-
-
-
 h4{
     margin-right: 62%;
     margin-top: 3rem;
@@ -64,20 +56,11 @@ h4{
 
 h1{
     margin-top: 6rem;
-    margin-left: 6rem;
+    margin-left: 1rem;
     font-size: 4rem;
     color: darkblue;
 }
 
-.vector-img {
-    margin-top: 65%;
-    margin-left: 3rem;
-}
-
-.imgs-div{
-    margin-left: 27rem;
-    height: 31rem;
-}
 h5{
     color: darkblue;
 }
