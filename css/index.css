@@ -7,6 +7,7 @@ body{
     background-position: right;
     background-size: 79%;
     background-repeat: no-repeat;
+    overflow-x: hidden ;
 }
 
 .main-div nav {
@@ -15,6 +16,10 @@ body{
     align-items: center;
     margin-left: 6%;
     margin-right: 7%;
+}
+
+.m-logo{
+    display: none;
 }
 
 .intro-section {
@@ -56,7 +61,7 @@ h4{
 
 h1{
     margin-top: 6rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     font-size: 4rem;
     color: darkblue;
 }
@@ -88,8 +93,76 @@ h5{
     padding-top: -1rem;
 }
 
-.imgs-div img:last-child{
-   width: 80%;
-    margin-left: 1rem;
+
+.imgs-div {
+    width: 70%;
+    margin-right: 110px;    
 }
 
+.vector-dot{
+    
+    margin-top: -8rem;
+    margin-left: 3.3rem;
+    position: absolute;
+}
+
+.vector-into-img{
+    margin-right: 140px;
+    width: 85%;
+}
+
+.vector-img{
+    margin-right: 250px;
+    margin-top: -9rem;
+    position: absolute;
+}
+
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    
+    .intro-section {
+        flex-direction: column-reverse;
+    }
+
+    .main-div{
+        display: none;
+    }
+
+    .m-logo{
+        display: unset;
+        margin-left: 40%;
+    }
+
+    .m-logo > img{
+        margin-top: 3rem;
+        filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+        saturate(600%) contrast(1);
+    }
+
+    .imgs-div{
+        margin-top: 3rem;
+    }
+
+    body{
+        background: none;
+    }
+
+    .left-section{
+        margin-top: -4rem;
+    }
+
+    h4{
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    .imgs-div {
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 6rem;    
+    }
+
+    h1{
+        margin-bottom: 1rem;
+    }
+}
