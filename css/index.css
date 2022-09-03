@@ -54,7 +54,6 @@ h4{
 }
 
 .left-section {
-    position: absolute;
     margin-left: 3rem;
     display: flex;
     flex-direction: column;
@@ -72,12 +71,10 @@ h1{
 
 .vector-img {
     margin-top: 65%;
-    position: absolute;
     margin-left: 3rem;
 }
 
 .imgs-div{
-    position: absolute;
     margin-left: 27rem;
     height: 31rem;
 }
