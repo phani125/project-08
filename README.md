@@ -17,7 +17,7 @@
 
 ## Time taken:
 
-- This project took me 2 hours to build from scratch because of positions and for making responsive it took me extra 50min.
+- I have taken 2 hours to build from scratch because of positions and for making responsive it took me extra 50min.
 
 
 
