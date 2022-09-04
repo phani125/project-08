@@ -7,7 +7,7 @@
 
 ## Preview:
 
-![Desktop view](.8.png)
+![Desktop view](./8.png)
 
 ## Built with:
 
